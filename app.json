@@ -1,3 +1,18 @@
+{
+    "name": "Usergex UserBot",
+    "description": "Pluggable telegram userbot, made in python using Telethon.",
+    "logo": "https://graph.org/file/031957757a4f6a5191040.jpg",
+    "keywords": [
+        "Telethon",
+        "telegram",
+        "userbot",
+        "python",
+        "usergex"
+    ],
+    "repository": "https://github.com/iamshafiu/UX-jutsu",
+    "website": "https://ultroid.tech",
+    "success_url": "https://t.me/TeamUltroid",
+    "stack": "container",
 "env": {
     "ALIVE_NAME": {
       "description": "give your name",
@@ -15,7 +30,7 @@
       "description": "Get this value by running python3 stringsetup.py locally or https://generatestringsession.sandeep1709.repl.run",
       "value": ""
     },
-    "BOT_TOKEN": {
+    "TG_BOT_TOKEN": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.",
       "value": ""
     },
